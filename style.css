@@ -18,12 +18,24 @@ nav {
 nav ul {
     display: flex;
     justify-content: center;
+    margin: 20px 5px;
 }
 
 nav ul li {
     list-style: none;
     margin: 0 23px;
     cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.02rem;
+}
+
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
 }
 
 .left {
@@ -46,8 +58,8 @@ nav ul li {
 }
 
 .rightSection img{
-    width: 80%;
-    margin: 50px 0;
+    width: 60%;
+    margin: 10px 150px;
 }
 
 .purple {
