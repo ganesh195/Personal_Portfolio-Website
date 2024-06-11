@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ganesh - Developer </title>
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav>
-        <div class="left">Ganesh Portfolio</div>
-        <div class="right">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Education</a></li>
-                <li><a href="/">Experience</a></li>
-                <li><a href="/">Project</a></li>
-                <li><a href="/">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ganesh - Developer</title>
+        <link rel="stylesheet" href="style.css" />
 
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi, My name is <span class="purple">Ganesh Sabat</span>
-                
-                <div>and I am a passionate</div>
-                <span id="element"></span>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <div class="left">Ganesh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
             </div>
-            <div class="rightSection">
-                <img src="https://static-00.iconduck.com/assets.00/web-developer-illustration-503x512-mega3xxj.png" alt="">
-            </div>
-        </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        </nav>
 
-    <script>
-        var typed = new Typed('#element', {
-          strings: ['Web Developer', '&amp; Computer Engineer.'],
-          typeSpeed: 50,
-        });
-      </script>
+        <main>
+            <section class="firstSection" id="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple">Ganesh Sabat</span>
 
-</body>
+                    <div>and I am a passionate</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightSection">
+                    <img
+                        src="https://static-00.iconduck.com/assets.00/web-developer-illustration-503x512-mega3xxj.png"
+                        alt />
+                </div>
+            </section>
+            
+        </main>
+        <script
+            src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "&amp; Computer Engineer."],
+        typeSpeed: 50,
+      });
+    </script>
+    </body>
 </html>
