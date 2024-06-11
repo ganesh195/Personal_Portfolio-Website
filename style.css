@@ -114,7 +114,15 @@ main hr {
     margin-left: 30px;
 }
 
-
+footer {
+    text-align: center;
+    font-size: 0.5rem;
+    color: rgb(127,141,170);
+    opacity: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 .btn {
     background: #1e2065;
@@ -130,4 +138,45 @@ main hr {
 .btn a {
     text-decoration: none;
     color: white;
+}
+
+.thirdSection h1 {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 0 0 30px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+} 
+
+.logo span{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin: 40px;
+    padding: 10px; 
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.logo i {
+    font-size: 22px;
 }
