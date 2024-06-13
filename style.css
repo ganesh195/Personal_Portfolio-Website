@@ -13,6 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
+    background-color: rgb(18, 18, 62);
 }
 
 nav ul {
@@ -179,4 +180,47 @@ footer {
 
 .logo i {
     font-size: 22px;
+}
+
+.fourthSection h1 {
+    text-align: center;
+    margin: 80px 0 0 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+.education {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.edu {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(18, 18, 85);
+    margin: 10px;
+    padding: 25px;
+}
+
+.edu h2{
+    margin: 10px;
+    font-size: 21px;
+}
+
+.edu h3{
+    margin: 10px;
+    font-size: 21px;
+}
+
+.edu h4{
+    margin: 10px;
+    font-size: 21px;
+}
+
+.edu:hover {
+    background-color: #1e2065;
 }
