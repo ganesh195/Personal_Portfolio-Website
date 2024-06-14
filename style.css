@@ -50,6 +50,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     margin: 130px 0;
+    height: 80%;
 }
 
 .firstSection > div {
@@ -79,13 +80,6 @@ nav ul li a:hover{
     margin: auto;
 }
 
-main hr {
-    border: 0;
-    background: #9c97f1;
-    height: 1.2px;
-    margin: 80px 84px;
-}
-
 .secondSection h1 {
     font-family: "Roboto", sans-serif;
     font-size: 2.0rem;
@@ -100,7 +94,8 @@ main hr {
     margin: 20px;
     padding: 10px;
     width: 100%;
-    height: 80vw;
+    height: 80
+    ;
 }
 .vertical-title {
     width: 80%;
@@ -160,6 +155,7 @@ footer {
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    margin: 60px 100px 80px 100px;
 } 
 
 .logo span{
@@ -187,6 +183,23 @@ footer {
 
 .logo i {
     font-size: 22px;
+}
+
+.logo span i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo span {
+    font-size: 30px;
+    background-color: rgb(41, 16, 142);
+    border-radius: 100%;
+    margin: 30px;
+    padding: 30px;
+}
+
+.logo span:hover {
+    font-size: 40px;
 }
 
 .fourthSection h1 {
@@ -273,4 +286,35 @@ footer {
 
 .pro h2 {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        min-width: fit-content;
+    }
+
+    .firstSection {
+        flex-direction: column-reverse ;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .leftSection {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightSection {
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img{
+        width: 45vvw;
+        margin: 50px 0 50px 0;
+    }
 }
